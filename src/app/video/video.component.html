@@ -1,0 +1,8 @@
+<div class="container">
+  <h1>Video Recorder</h1>
+  <video class="video" #video autoplay controls></video>
+  <video class="video" controls #recordedVideo></video>
+  <br>
+  <button class="btn" *ngIf="!isRecording" (click)="startRecording()">Start Recording</button>
+  <button class="btn" *ngIf="isRecording" (click)="stopRecording()">Stop Recording</button>
+</div>

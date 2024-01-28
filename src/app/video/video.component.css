@@ -1,0 +1,18 @@
+p {
+    font-family: Lato;
+}
+
+video {
+    width: 330px;
+    margin: 5px;
+}
+div{
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: fit-content;
+    margin-left: 130px;
+}
